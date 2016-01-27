@@ -569,3 +569,73 @@ nav#footer p{
 	background: #FCAC45;
 	border-color: #FCAC45;
 	color: #ffffff;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?on1xzl');
+    src:    url('fonts/icomoon.eot?on1xzl#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?on1xzl') format('truetype'),
+        url('fonts/icomoon.woff?on1xzl') format('woff'),
+        url('fonts/icomoon.svg?on1xzl#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Rajout des glyphicons */
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?on1xzl');
+    src:    url('../fonts/icomoon.eot?on1xzl#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?on1xzl') format('truetype'),
+        url('../fonts/icomoon.woff?on1xzl') format('woff'),
+        url('../fonts/icomoon.svg?on1xzl#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-boxing10:before {
+    content: "\e900";
+}
+.icon-flexions:before {
+    content: "\e901";
+}
+.icon-martial2:before {
+    content: "\e902";
+}
+.icon-sprint:before {
+    content: "\e903";
+}
+
+
+
